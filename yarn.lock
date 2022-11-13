@@ -770,6 +770,32 @@
     mongodb "4.11.0"
     vitest "0.25.1"
 
+"@mongodb-model/app@^0.0.100015":
+  version "0.0.100015"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/app/-/app-0.0.100015.tgz#10ea04444042bed23ff832a947a14c0de9fab705"
+  integrity sha512-kB2rY0CE1wQj6bByviKGEyd3GQJ1tjnemMJYUoq4waII0QHZmRjI/jDOIcl1bSwNDKT2vSL57jUE7jT4F/WnWA==
+  dependencies:
+    "@mongodb-model/base" "^0.0.10000"
+    "@mongodb-model/cli" "^0.0.0"
+    "@mongodb-model/controller" "^0.0.0"
+    "@mongodb-model/couleurs" "^0.0.0"
+    "@mongodb-model/db-callback" "^0.0.0"
+    "@mongodb-model/db-migrate" "^0.0.0"
+    "@mongodb-model/db-migration" "^0.0.0"
+    "@mongodb-model/db-promise" "^0.0.10000"
+    "@mongodb-model/db-query" "^0.0.10000"
+    "@mongodb-model/db-query-validator" "^0.0.0"
+    "@mongodb-model/db-schema" "^0.0.0"
+    "@mongodb-model/error" "^0.0.0"
+    "@mongodb-model/lib" "^0.0.10000"
+    "@mongodb-model/man" "^0.0.0"
+    "@mongodb-model/method" "^0.0.0"
+    "@mongodb-model/schema" "^0.0.0"
+    "@mongodb-model/template" "^0.0.0"
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
 "@mongodb-model/base@^0.0.10000":
   version "0.0.10000"
   resolved "https://registry.yarnpkg.com/@mongodb-model/base/-/base-0.0.10000.tgz#9123934b7188ee3420a7fa097aa2ba81b1316e4a"
@@ -804,6 +830,26 @@
   resolved "https://registry.yarnpkg.com/@mongodb-model/db-callback/-/db-callback-0.0.0.tgz#df4e4b7f39ca2a37bff99c101917a2812ef928d8"
   integrity sha512-O6IACI2bFKx//GMsQdru1eu66eMmpAIV0bTXAQAUMcYX0MEtW81Du0uEp8I+iLrNPCklOVLT1l17ybWOdcpmAA==
   dependencies:
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
+"@mongodb-model/db-migrate@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/db-migrate/-/db-migrate-0.0.0.tgz#e71c4ae35d0a31a3911f2ae5c07915e228b7d7c5"
+  integrity sha512-Cd4TbqfrikK8bJ0OFIaIqBMKcrRXBQjtn59uSoo9yB+3Td+nJKnrI1DNIVpohnG20Dp5dKqXq9ibIWdwgTJMhA==
+  dependencies:
+    "@mongodb-model/app" "^0.0.100010"
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
+"@mongodb-model/db-migrate@^0.0.100011":
+  version "0.0.100011"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/db-migrate/-/db-migrate-0.0.100011.tgz#6117cdcf40257ca17ba706ef4e79dac7b4475e30"
+  integrity sha512-5/Ft7PrpejsabLHmoyAGT0873bngJB2Bwjhg0FKMPSpiHV+m+Y2PMgaVywsiY4DXi7qj7HL0+onsPxo0x/On+A==
+  dependencies:
+    "@mongodb-model/app" "^0.0.100010"
     dotenv "16.0.3"
     mongodb "4.11.0"
     vitest "0.25.1"
@@ -870,6 +916,32 @@
   integrity sha512-nqzSB+DZmlPePzuqgZYSEuXXb4mI/fgrz1VL7rLpjFsH/0TfXD0GS8Mb/9EZjmDNZ6F/NBrcyIka4Qm6m+gC4w==
   dependencies:
     dotenv "16.0.3"
+    vitest "0.25.1"
+
+"@mongodb-model/method@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/method/-/method-0.0.0.tgz#080cc6f9142815aa723de080996f1972d78b9b58"
+  integrity sha512-aFdzd/nOTdz1w9x9ZgUFz8XXBFYv4x5p73aWmYhTWee8lz2fEyo1M2hYTGUvXiZ8ElMAiDbw1wvZynGPIS6urw==
+  dependencies:
+    "@mongodb-model/app" "^0.0.100010"
+    "@mongodb-model/db-callback" "^0.0.0"
+    "@mongodb-model/db-query" "^0.0.10000"
+    "@mongodb-model/db-query-validator" "^0.0.0"
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
+"@mongodb-model/method@^0.0.100012":
+  version "0.0.100012"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/method/-/method-0.0.100012.tgz#20c452dce507df51dfd4f86cc02fc38c4dd0b6bf"
+  integrity sha512-eV9iU8XoRXh102GGWQGVxVHFKkV8DTJP3YZIZuHXzKKNmXFyqsHql0c3gsSKEERC7Nu/UuV9tubsvHGJz8PEIA==
+  dependencies:
+    "@mongodb-model/app" "^0.0.100015"
+    "@mongodb-model/db-callback" "^0.0.0"
+    "@mongodb-model/db-query" "^0.0.10000"
+    "@mongodb-model/db-query-validator" "^0.0.0"
+    dotenv "16.0.3"
+    mongodb "4.11.0"
     vitest "0.25.1"
 
 "@mongodb-model/schema@^0.0.0":
