@@ -776,6 +776,24 @@
     mongodb "4.11.0"
     vitest "0.25.1"
 
+"@mongodb-model/db-query-validator@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/db-query-validator/-/db-query-validator-0.0.0.tgz#7de835af464b0aefd4d54b29befb8fc465f04e30"
+  integrity sha512-kHBmbmhL2HirQpowMgN6o7J4mQ6lATrbszspGfCiVOeUk7JuvmDa3IsOxylwqM31RBCndmiU9bgypxMJ4f6jkQ==
+  dependencies:
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
+"@mongodb-model/db-query@^0.0.10000":
+  version "0.0.10000"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/db-query/-/db-query-0.0.10000.tgz#87ccdc07ebbb6a7f331ac523fd38474271c27df2"
+  integrity sha512-TX21OXeiV65I2X2YavbWvBRwqDBM/V5mxKxo2VokYO3GY278P6k0336GIrwyoyV1dqUwCa7SwjAqpdfkm+DQCg==
+  dependencies:
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
 "@mongodb-model/error@^0.0.0":
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/@mongodb-model/error/-/error-0.0.0.tgz#1878edcb23762cddb3ec3593874c87353267a807"
