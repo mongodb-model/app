@@ -750,6 +750,15 @@
     dotenv "16.0.3"
     vitest "0.25.1"
 
+"@mongodb-model/db-callback@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/db-callback/-/db-callback-0.0.0.tgz#df4e4b7f39ca2a37bff99c101917a2812ef928d8"
+  integrity sha512-O6IACI2bFKx//GMsQdru1eu66eMmpAIV0bTXAQAUMcYX0MEtW81Du0uEp8I+iLrNPCklOVLT1l17ybWOdcpmAA==
+  dependencies:
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
 "@mongodb-model/db-migration@^0.0.0":
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/@mongodb-model/db-migration/-/db-migration-0.0.0.tgz#6c770a6f32e2259bd2b422e381516fff36d5594d"
