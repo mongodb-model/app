@@ -45,7 +45,7 @@ class Model extends require("./base") {
         // auto invoke methods
         this.autoinvoker(Model);
         // add other classes method if methods do not already exist. Argument order matters!
-        this.methodizer(AsyncAwait, Callback, CallbackQuery, CallbackQueryValidator);
+        this.methodizer(AsyncAwait,Callback, CallbackQuery, CallbackQueryValidator);
         //Set the maximum number of listeners to infinity
         this.setMaxListeners(Infinity);
       }
@@ -108,7 +108,8 @@ class Model extends require("./base") {
         fn
       );
   }
-  command(){return require('./bin')}
+  // command(){return require('./bin')}
+  onCommand(){}
   /**
    * @name autoinvoked
    * @function

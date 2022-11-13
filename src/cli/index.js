@@ -24,7 +24,7 @@ const Template  = require('@mongodb-model/template');
 
 const {model} = new Template;
 
-class Model extends require("base"){
+class Model extends require("../../base"){
   constructor(options = {}) {
     super({ objectMode: true, encoding: "utf-8", autoDestroy: true });
 
