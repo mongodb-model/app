@@ -20,7 +20,7 @@ const {join } = require('node:path');
 const {existsSync} = require('fs')
 
 const { exec } = require('node:child_process');
-const Template  = require('template');
+const Template  = require('@mongodb-model/template');
 
 const {model} = new Template;
 

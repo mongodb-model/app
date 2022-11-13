@@ -18,13 +18,13 @@
 
 const Man = require("man");
 const Couleur = require("couleurs");
-// const Method = require("model-method");
+const Method = require("@mongodb-model/method");
 
 const MongoTransform = require("../");
 const Model = require("../src/cli");
-// const Schema = require("schema");
-const Migration = require("db-migration");
-// const Migrate = require("db-migrate");
+const Schema = require("@mongodb-model/schema");
+const Migration = require("@mongodb-model/db-migration");
+const Migrate = require("@mongodb-model/db-migrate");
 const {MethodCommand, MigrationCommand, MigrateCommand, SchemaCommand, ModelCommand} = require('../lib')().Commands()
 
 const { spawn } = require("node:child_process");
