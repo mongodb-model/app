@@ -16,8 +16,8 @@
  * @classdesc CLI class
  */
 
-const Man = require("man");
-const Couleur = require("couleurs");
+const Man = require("@mongodb-model/man");
+const Couleur = require("@mongodb-model/couleurs");
 const Method = require("@mongodb-model/method");
 
 const MongoTransform = require("../");
@@ -31,7 +31,7 @@ const { spawn } = require("node:child_process");
 const { join } = require("path");
 const ErrorNotification = require("error");
 
-class CLI extends require("base") {
+class CLI extends require("../base") {
   
   constructor(...arrayOfObjects) {
     super({ objectMode: true, encoding: "utf-8", autoDestroy: true });
