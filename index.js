@@ -29,7 +29,7 @@ const CallbackQuery = require('@mongodb-model/db-query');
 const CallbackQueryValidator = require('@mongodb-model/db-query-validator');
 
 
-class Model extends require("base") {
+class Model extends require("./base") {
     constructor(...arrayOfObjects) {
 
         super({ objectMode: true, encoding: "utf-8", autoDestroy: true });
