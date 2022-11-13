@@ -108,8 +108,8 @@ class Model extends require("./base") {
         fn
       );
   }
-  // command(){return require('./bin')}
-  onCommand(){}
+  command(){return require('./bin')}
+
   /**
    * @name autoinvoked
    * @function
