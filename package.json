@@ -1,0 +1,53 @@
+{
+  "name": "@mongodb-model/app",
+  "version": "0.0.100010",
+  "description": "app",
+  "main": "index.js",
+  "bin": {
+    "app": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/app.git"
+  },
+  "keywords": [
+    "app",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/app/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/app#readme",
+  "dependencies": {
+    "@mongodb-model/base": "^0.0.10000",
+    "@mongodb-model/cli": "^0.0.0",
+    "@mongodb-model/controller": "^0.0.0",
+    "@mongodb-model/couleurs": "^0.0.0",
+    "@mongodb-model/db-callback": "^0.0.0",
+    "@mongodb-model/db-migration": "^0.0.0",
+    "@mongodb-model/db-promise": "^0.0.10000",
+    "@mongodb-model/db-query": "^0.0.10000",
+    "@mongodb-model/db-query-validator": "^0.0.0",
+    "@mongodb-model/db-schema": "^0.0.0",
+    "@mongodb-model/error": "^0.0.0",
+    "@mongodb-model/lib": "^0.0.10000",
+    "@mongodb-model/man": "^0.0.0",
+    "@mongodb-model/schema": "^0.0.0",
+    "dotenv": "16.0.3",
+    "mongodb": "4.11.0",
+    "vitest": "0.25.1"
+  }
+}
