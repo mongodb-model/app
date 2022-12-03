@@ -905,6 +905,16 @@
     dotenv "16.0.3"
     vitest "0.25.1"
 
+"@mongodb-model/http-controller@^0.0.1000":
+  version "0.0.1000"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/http-controller/-/http-controller-0.0.1000.tgz#6d835ede70d871cf97d93561d7cb0c0858ba2c7b"
+  integrity sha512-MkF+lKEYxxaarXNYsY9MYZeemJFC+NHXzYXcQg4xJe8zPd+AgFAGnmDGUpK8Y+hexz168VcAieoglCjsY8ps3Q==
+  dependencies:
+    "@mongodb-model/controller" "^0.0.0"
+    "@mongodb-model/couleurs" "^0.0.0"
+    dotenv "16.0.3"
+    vitest "0.25.1"
+
 "@mongodb-model/lib@^0.0.10000":
   version "0.0.10000"
   resolved "https://registry.yarnpkg.com/@mongodb-model/lib/-/lib-0.0.10000.tgz#5de8e8052bbbd0294dba696a3e458864e97404c3"
@@ -959,6 +969,16 @@
   dependencies:
     dotenv "16.0.3"
     socket.io "4.5.3"
+
+"@mongodb-model/tcp-controller@^0.0.1000":
+  version "0.0.1000"
+  resolved "https://registry.yarnpkg.com/@mongodb-model/tcp-controller/-/tcp-controller-0.0.1000.tgz#8615eda4ccbd7ead0ddff7974c893e2d2bd8d3fd"
+  integrity sha512-owti/nENMsJ3wvVf7L3zq5F+Yt+sewaF+Lfljyh6hdNRL9uxVvbZeXQ/cA/HieC9iMuzaCxLJGnkie3cQqXIVQ==
+  dependencies:
+    "@mongodb-model/controller" "^0.0.0"
+    "@mongodb-model/couleurs" "^0.0.0"
+    dotenv "^16.0.3"
+    vitest "^0.25.3"
 
 "@mongodb-model/template@^0.0.0":
   version "0.0.0"
@@ -1208,7 +1228,7 @@ destroy@1.2.0:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.2.0.tgz#4803735509ad8be552934c67df614f94e66fa015"
   integrity sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==
 
-dotenv@16.0.3:
+dotenv@16.0.3, dotenv@^16.0.3:
   version "16.0.3"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
@@ -2033,6 +2053,26 @@ vitest@0.25.1:
   version "0.25.1"
   resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.25.1.tgz#4eafca68fabab22b6099451ab3fcaac33290a4ed"
   integrity sha512-eH74h6MkuEgsqR4mAQZeMK9O0PROiKY+i+1GMz/fBi5A3L2ml5U7JQs7LfPU7+uWUziZyLHagl+rkyfR8SLhlA==
+  dependencies:
+    "@types/chai" "^4.3.3"
+    "@types/chai-subset" "^1.3.3"
+    "@types/node" "*"
+    acorn "^8.8.0"
+    acorn-walk "^8.2.0"
+    chai "^4.3.6"
+    debug "^4.3.4"
+    local-pkg "^0.4.2"
+    source-map "^0.6.1"
+    strip-literal "^0.4.2"
+    tinybench "^2.3.1"
+    tinypool "^0.3.0"
+    tinyspy "^1.0.2"
+    vite "^3.0.0"
+
+vitest@^0.25.3:
+  version "0.25.3"
+  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.25.3.tgz#4e5ed481e4da6a0ce014bdb71dfc9661fd62b722"
+  integrity sha512-/UzHfXIKsELZhL7OaM2xFlRF8HRZgAHtPctacvNK8H4vOcbJJAMEgbWNGSAK7Y9b1NBe5SeM7VTuz2RsTHFJJA==
   dependencies:
     "@types/chai" "^4.3.3"
     "@types/chai-subset" "^1.3.3"

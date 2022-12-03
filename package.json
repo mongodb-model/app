@@ -40,9 +40,11 @@
     "@mongodb-model/db-query": "^0.0.10000",
     "@mongodb-model/db-query-validator": "^0.0.0",
     "@mongodb-model/error": "^0.0.0",
+    "@mongodb-model/http-controller": "^0.0.1000",
     "@mongodb-model/man": "^0.0.0",
     "@mongodb-model/method": "^0.0.100012",
     "@mongodb-model/schema": "^0.0.0",
+    "@mongodb-model/tcp-controller": "^0.0.1000",
     "@mongodb-model/template": "^0.0.0"
   }
 }
