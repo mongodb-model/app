@@ -115,7 +115,7 @@ class CLI extends require("../base") {
             database - for connected database.
             model - for available models or collections.
             class - for main class.
-                `);
+            `);
     }
   }
   command() {this.init()}
@@ -151,6 +151,7 @@ class CLI extends require("../base") {
           break;
         case "make:model":
           new ModelCommand().makeModel();
+          // console.log('make:model', new ModelCommand);
           break;
         case "make:schema":
           new SchemaCommand().makeSchema();
