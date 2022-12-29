@@ -30,21 +30,5 @@
   "bugs": {
     "url": "https://github.com/mongodb-model/app/issues"
   },
-  "homepage": "https://github.com/mongodb-model/app#readme",
-  "dependencies": {
-    "@mongodb-model/couleurs": "file:../couleurs",
-    "@mongodb-model/db-callback": "file:../db-callback",
-    "@mongodb-model/db-migrate": "file:../db-migrate",
-    "@mongodb-model/db-migration": "file:../db-migration",
-    "@mongodb-model/db-promise": "file:../db-promise",
-    "@mongodb-model/db-query": "file:../db-query",
-    "@mongodb-model/db-query-validator": "file:../db-query-validator",
-    "@mongodb-model/error": "file:../error",
-    "@mongodb-model/http-controller": "file:../http-controller",
-    "@mongodb-model/man": "file:../man",
-    "@mongodb-model/method": "file:../method",
-    "@mongodb-model/schema": "file:../schema",
-    "@mongodb-model/tcp-controller": "file:../tcp-controller",
-    "@mongodb-model/template": "file:../template"
-  }
+  "homepage": "https://github.com/mongodb-model/app#readme"
 }
