@@ -30,5 +30,14 @@
   "bugs": {
     "url": "https://github.com/mongodb-model/app/issues"
   },
-  "homepage": "https://github.com/mongodb-model/app#readme"
+  "homepage": "https://github.com/mongodb-model/app#readme",
+  "dependencies": {
+    "@mongodb-model/couleurs": "../couleurs",
+    "@mongodb-model/db-migrate": "../db-migrate",
+    "@mongodb-model/db-migration": "../db-migration",
+    "@mongodb-model/error": "../error",
+    "@mongodb-model/man": "../man",
+    "@mongodb-model/method": "../method",
+    "@mongodb-model/schema": "../schema"
+  }
 }
